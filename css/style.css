@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: seagreen;
+}
+
+.red{
+    background-color: darkred;
+}
+.blue{
+    background-color: cornflowerblue;
+}
+.yellow{
+    background-color: rgb(189, 167, 45);
+}
+.orange{
+    background-color: coral;
+}
+
+.container{
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
